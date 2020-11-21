@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 body {
   margin: 0;
-  font-family: Arial Hebrew;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #0052ff;
 }
 
@@ -9,7 +10,7 @@ body {
   margin: auto;
 }
 .header-space {
-    margin-top: 46px;
+  margin-top: 46px;
 }
 .header {
   color: #ffffff;
@@ -22,21 +23,22 @@ body {
 
 .logo {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
 .menu {
-    display: flex;
-    column-gap: 44px;
-    margin: 0;
-    padding: 0;
-    align-items: center;
+  display: flex;
+  column-gap: 44px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  font-size: 18px;
 }
 
 span {
-    margin-left: 12px;
+  margin-left: 12px;
+  font-size: 20px;
 }
 
 .call-btn {
@@ -44,6 +46,9 @@ span {
   color: #ffffff;
   border-color: #ffffff;
   border-radius: 5px;
+  padding: 0 30px 0 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
 }
 
 ul {
