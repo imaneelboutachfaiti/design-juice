@@ -21,12 +21,52 @@ body {
   margin-bottom: 49px;
 }
 
+.ranking-desc {
+  color: #ffcf26;
+  margin-top: 195px;
+  font-size: 16px;
+}
+
 .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.main-title {
+  color: #ffffff;
+  font-size: 64px;
+}
+.description {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 44px;
+}
+
+.consultation-info {
+  display: flex;
+}
+.consultation-btn {
+  background-color: #ffcf26;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 50%;
+  border: transparent;
+  padding: 0px 40px;
+}
+
+.paragraph-info {
+  font-size: 18px;
+  color: #ffffff;
+  width: 50%;
+  margin-left: 45px;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
 .menu {
   display: flex;
   column-gap: 44px;
