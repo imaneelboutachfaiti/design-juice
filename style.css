@@ -2,28 +2,68 @@
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #0052ff;
 }
 
 .container {
   max-width: 1200px;
   margin: auto;
 }
-.header-space {
-  margin-top: 46px;
+
+.blue-section {
+  background-color: #0052ff;
 }
+
 .header {
   color: #ffffff;
   background-color: #0052ff;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 49px;
+  padding-top: 46px;
+}
+
+.header-space {
+  background-color: #0052ff;
+}
+
+span {
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  column-gap: 44px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  font-size: 18px;
+}
+
+.call-btn {
+  background-color: #0052ff;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 5px;
+  padding: 4px 30px 4px 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+hr {
+  background-color: #0052ff;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .ranking-desc {
   color: #ffcf26;
-  margin-top: 195px;
+  padding-top: 195px;
+  background-color: #0052ff;
   font-size: 16px;
 }
 
@@ -37,6 +77,7 @@ body {
   color: #ffffff;
   font-size: 64px;
 }
+
 .description {
   width: 800px;
   display: flex;
@@ -46,7 +87,9 @@ body {
 
 .consultation-info {
   display: flex;
+  padding-bottom: 314px;
 }
+
 .consultation-btn {
   background-color: #ffcf26;
   border-radius: 5px;
@@ -67,30 +110,51 @@ h1,
 h3 {
   margin: 0;
 }
-.menu {
+
+.websites-section {
+  background-color: #f2f2f2;
+}
+
+.websites-container {
+  max-width: 1560px;
   display: flex;
-  column-gap: 44px;
-  margin: 0;
+  column-gap: 98.37px;
+  align-content: center;
+}
+
+.web-title {
+  font-size: 42px;
+  color: #020113;
+}
+
+.checked-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 38px;
   padding: 0;
+}
+
+.saas-websites {
+  align-self: center;
+}
+
+.check-icon {
+  margin-right: 10.27px;
+}
+
+.checked-item {
+  display: flex;
+  font-size: 18px;
   align-items: center;
+}
+
+.saas-btn {
+  padding: 0px 30px 0px 30px;
   font-size: 18px;
-}
-
-span {
-  margin-left: 12px;
-  font-size: 20px;
-}
-
-.call-btn {
-  background-color: #0052ff;
-  color: #ffffff;
-  border-color: #ffffff;
+  background-color: #ffcf26;
+  border: transparent;
+  margin-top: 38px;
   border-radius: 5px;
-  padding: 0 30px 0 30px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
-}
-
-ul {
-  list-style-type: none;
+  height: 60px;
 }
