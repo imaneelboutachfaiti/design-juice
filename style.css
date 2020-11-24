@@ -241,7 +241,7 @@ h3 {
 .percentage-satisfaction {
   padding-top: 132px;
   font-size: 19px;
-  max-width: 760px;
+  width: 760px;
   display: flex;
   column-gap: 40px;
 }
