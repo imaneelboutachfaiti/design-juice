@@ -180,6 +180,10 @@ h3 {
   height: 611px;
 }
 
+.reviews-desc {
+  font-weight: bold;
+}
+
 .reviews {
   padding-top: 151px;
   display: flex;
@@ -194,7 +198,6 @@ h3 {
   position: absolute;
   justify-content: space-between;
   column-gap: 30px;
-  /* margin-top: 68px; */
   transform: translate(25%, 25%);
 }
 
@@ -226,13 +229,13 @@ h3 {
 }
 
 .star {
-  color: gold;
-  size: 18px;
+  color: #ffa026;
 }
 .reviewers-desc {
   display: flex;
   column-gap: 19px;
   align-items: center;
+  font-weight: 400;
 }
 .customer-satisfaction {
   background-color: #eaeff5;
