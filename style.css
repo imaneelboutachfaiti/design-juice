@@ -27,7 +27,7 @@ body {
   background-color: #0052ff;
 }
 
-span {
+.logo-span {
   margin-left: 12px;
   font-size: 20px;
 }
@@ -161,14 +161,87 @@ h3 {
 }
 
 .websites-icon {
-    background-color: white;
-    position: absolute;
-    padding-left: 86px;
-    padding-right: 86px;
-    padding-top: 65px;
-    padding-bottom: 70px;
-    border-radius: 10px;
-    transform: translate(-50%, -50%);
-    align-content: center;
-    left: 50%;
+  background-color: white;
+  position: absolute;
+  padding-left: 86px;
+  padding-right: 86px;
+  padding-top: 65px;
+  padding-bottom: 70px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  align-content: center;
+  left: 50%;
+}
+
+.reviews-section {
+  background-color: #f2f2f2;
+  font-size: 42px;
+  color: #020113;
+  height: 611px;
+}
+
+.reviews {
+  padding-top: 151px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  position: relative;
+}
+
+.reviewers-comments {
+  right: 35%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  column-gap: 30px;
+  /* margin-top: 68px; */
+  transform: translate(25%, 25%);
+}
+
+.Nathan-comment {
+  background-color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 46px 47px 45px;
+  border-radius: 5px;
+}
+
+.Johanna-comment {
+  background-color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 46px 47px 45px;
+  border-radius: 5px;
+}
+
+.Maria-comment {
+  background-color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 46px 47px 45px;
+  border-radius: 5px;
+}
+
+.star {
+  color: gold;
+  size: 18px;
+}
+.reviewers-desc {
+  display: flex;
+  column-gap: 19px;
+  align-items: center;
+}
+.customer-satisfaction {
+  background-color: #eaeff5;
+}
+
+.percentage-satisfaction {
+  padding-top: 132px;
+  font-size: 19px;
+  max-width: 760px;
+  display: flex;
+  column-gap: 40px;
 }
