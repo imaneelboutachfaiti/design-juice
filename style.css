@@ -21,6 +21,7 @@ body {
   justify-content: space-between;
   margin-bottom: 49px;
   padding-top: 46px;
+  font-size: 18px;
 }
 
 .header-space {
@@ -46,9 +47,10 @@ body {
   color: #ffffff;
   border-color: #ffffff;
   border-radius: 5px;
-  padding: 4px 30px 4px 30px;
+  padding: 10px 30px 10px 28px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
+  border-style: groove;
 }
 
 hr {
