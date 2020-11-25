@@ -121,7 +121,7 @@ h3 {
 .websites-container {
   max-width: 1560px;
   display: flex;
-  column-gap: 98.37px;
+  column-gap: 98.27px;
   align-content: center;
 }
 
@@ -179,7 +179,7 @@ h3 {
   background-color: #f2f2f2;
   font-size: 42px;
   color: #020113;
-  height: 611px;
+  height: 600px;
 }
 
 .reviews-desc {
@@ -198,9 +198,8 @@ h3 {
   display: flex;
   position: absolute;
   column-gap: 30px;
-  transform: translate(25%, 25%);
-  left: -5%;
-  right: 35%;
+  transform: translate(0%, 25%);
+  max-width: 1200px;
 }
 
 .Nathan-comment {
@@ -243,12 +242,16 @@ h3 {
 
 .customer-satisfaction {
   background-color: #eaeff5;
+  justify-content: space-between;
 }
 
 .percentage-satisfaction {
-  padding-top: 132px;
+  padding-top: 80px;
   font-size: 19px;
-  width: 760px;
   display: flex;
   column-gap: 40px;
 }
+
+/* .rec1 {
+  margin-left: 100px;
+} */
