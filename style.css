@@ -152,7 +152,7 @@ h3 {
   align-items: center;
 }
 
-.saas-btn {
+.free-call-btn {
   padding: 0px 30px 0px 30px;
   font-size: 18px;
   background-color: #ffcf26;
@@ -242,16 +242,45 @@ h3 {
 
 .customer-satisfaction {
   background-color: #eaeff5;
-  justify-content: space-between;
+  /* height: 1107px; */
+}
+.customers-container {
+  max-width: 1560px;
+  margin: auto;
 }
 
-.percentage-satisfaction {
+.customer-satisfaction > .percentage {
   padding-top: 80px;
   font-size: 19px;
   display: flex;
   column-gap: 40px;
+  padding-bottom: 129px;
 }
 
-/* .rec1 {
-  margin-left: 100px;
-} */
+.rectangle {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.customer-satisfaction > .desc-content {
+  display: flex;
+  align-items: center;
+  column-gap: 129px;
+  padding-left: 360px;
+}
+
+.desc-content > .paragraph > .title {
+  font-size: 42px;
+}
+
+.desc-content > .paragraph {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.laptop-photo {
+  width: 640px;
+  image-orientation: flip;
+}
