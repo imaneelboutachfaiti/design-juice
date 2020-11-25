@@ -184,23 +184,23 @@ h3 {
 
 .reviews-desc {
   font-weight: bold;
+  text-align: center;
 }
 
 .reviews {
   padding-top: 151px;
   display: flex;
   justify-content: space-between;
-  align-content: space-between;
   position: relative;
 }
 
 .reviewers-comments {
-  right: 35%;
   display: flex;
   position: absolute;
-  justify-content: space-between;
   column-gap: 30px;
   transform: translate(25%, 25%);
+  left: -5%;
+  right: 35%;
 }
 
 .Nathan-comment {
@@ -233,12 +233,14 @@ h3 {
 .star {
   color: #ffa026;
 }
+
 .reviewers-desc {
   display: flex;
   column-gap: 19px;
   align-items: center;
   font-weight: 400;
 }
+
 .customer-satisfaction {
   background-color: #eaeff5;
 }
