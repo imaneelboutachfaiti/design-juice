@@ -267,7 +267,7 @@ h3 {
   justify-content: space-between;
   padding-left: 200px;
   padding-bottom: 150px;
-  column-gap: 195px;
+  column-gap: 140px;
 }
 
 .desc-content > .paragraph > .title {
@@ -300,6 +300,7 @@ h3 {
 .paragraph-container {
   width: 775px;
   align-self: center;
+  padding-bottom: 45px;
 }
 
 .saas-industry-paragraph {
