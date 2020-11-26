@@ -242,10 +242,11 @@ h3 {
 
 .customer-satisfaction {
   background-color: #eaeff5;
-  /* height: 1107px; */
 }
+
 .customers-container {
   max-width: 1560px;
+  text-align: left;
   margin: auto;
 }
 
@@ -264,9 +265,9 @@ h3 {
 
 .customer-satisfaction > .desc-content {
   display: flex;
-  align-items: center;
-  column-gap: 129px;
-  padding-left: 360px;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-bottom: 151px;
 }
 
 .desc-content > .paragraph > .title {
@@ -277,10 +278,29 @@ h3 {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+
+.saas-industry {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.laptop-photo {
-  width: 640px;
-  image-orientation: flip;
+.saas-industry-title {
+  font-size: 42px;
+  color: #020113;
+  text-align: center;
+}
+
+.paragraph-container {
+  width: 775px;
+  align-self: center;
+}
+
+.saas-industry-paragraph {
+  font-size: 18px;
+  padding-left: 67px;
+  padding-right: 67px;
+  text-align: center;
 }
