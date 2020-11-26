@@ -246,7 +246,6 @@ h3 {
 
 .customers-container {
   max-width: 1560px;
-  text-align: left;
   margin: auto;
 }
 
@@ -266,8 +265,9 @@ h3 {
 .customer-satisfaction > .desc-content {
   display: flex;
   justify-content: space-between;
-  padding-left: 200px;
-  padding-bottom: 151px;
+  padding-left: 150px;
+  padding-bottom: 150px;
+  column-gap: 195px;
 }
 
 .desc-content > .paragraph > .title {
@@ -278,7 +278,11 @@ h3 {
   font-size: 18px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  width: 50%;
+}
+
+.laptop-div {
+  width: 50%;
 }
 
 .saas-industry {
