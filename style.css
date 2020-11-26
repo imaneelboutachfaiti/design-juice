@@ -265,7 +265,7 @@ h3 {
 .customer-satisfaction > .desc-content {
   display: flex;
   justify-content: space-between;
-  padding-left: 150px;
+  padding-left: 200px;
   padding-bottom: 150px;
   column-gap: 195px;
 }
