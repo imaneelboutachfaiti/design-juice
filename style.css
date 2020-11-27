@@ -309,3 +309,31 @@ h3 {
   padding-right: 67px;
   text-align: center;
 }
+
+.companies-websites {
+  background-color: #F2F2F2;
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+  column-gap: 90px;
+  padding-top: 156px;
+}
+
+.performance-desc {
+  font-size: 42px;
+  
+}
+
+.performance {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.performance > .span {
+  font-size: 19px;
+}
+.companies-websites >div >.paragraph {
+  font-size: 18px;
+  
+}
