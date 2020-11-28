@@ -314,7 +314,6 @@ h3 {
   background-color: #F2F2F2;
   display: flex;
   font-weight: bold;
-  flex-direction: row;
   column-gap: 90px;
  
 }
@@ -330,7 +329,6 @@ h3 {
   justify-content: space-between;
   text-align: center;
   padding-top: 174px;
-
 }
 .performance > span {
   font-size: 19px;
@@ -342,4 +340,8 @@ h3 {
 }
 .performance-section {
   background-color: #F2F2F2;
+}
+
+.performance2 {
+padding-bottom: 150px;
 }
