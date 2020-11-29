@@ -97,9 +97,9 @@ ul {
   background-color: #ffcf26;
   border-radius: 5px;
   font-size: 20px;
+  width: 50%;
   border: transparent;
-  width: 350px;
-  height: 70px;
+  padding: 0px 40px;
 }
 
 .paragraph-info {
