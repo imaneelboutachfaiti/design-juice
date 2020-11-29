@@ -311,11 +311,10 @@ h3 {
 }
 
 .companies-websites {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   display: flex;
   font-weight: bold;
   column-gap: 90px;
- 
 }
 
 .performance-desc {
@@ -330,32 +329,33 @@ h3 {
   text-align: center;
   padding-top: 174px;
 }
+
 .performance > span {
   font-size: 19px;
- 
 }
-.companies-websites >div >.paragraph {
+.companies-websites > div > .paragraph {
   font-size: 18px;
-  
 }
 .performance-section {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .performance2 {
-padding-bottom: 150px;
+  padding-bottom: 150px;
 }
 
 .blog-posts {
   background-color: #0052ff;
 }
+
 .post-container {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-size: 18px;
   color: #020113;
   font-weight: bold;
   border-radius: 5px;
 }
+
 .latest-posts {
   display: flex;
   column-gap: 30px;
@@ -368,7 +368,8 @@ padding-bottom: 150px;
   text-align: center;
   padding-top: 132px;
   padding-bottom: 37px;
-  color:  #FFFFFF;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .post-desc {
@@ -380,4 +381,50 @@ padding-bottom: 150px;
 
 .post-time {
   padding-left: 8px;
+}
+
+.footer {
+  background-color: #111111;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.footer-content {
+  padding-top: 74px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+
+.footer-desc {
+  width: 380px;
+  opacity: 50%;
+}
+
+.footer-content > div > ul > li {
+  opacity: 50%;
+}
+
+.footer-menu {
+  display: flex;
+  width: 242px;
+  justify-content: space-between;
+  align-content: center;
+  opacity: 50%;
+  padding-top: 44px;
+}
+
+.social-icons {
+  text-align: right;
+ 
+}
+.footer-menu-section {
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons > img {
+  column-gap: 20px;
+  padding-top: 53px;
+  padding-bottom: 54px;
+  padding-left: 20px;
 }
