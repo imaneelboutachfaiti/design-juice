@@ -418,13 +418,19 @@ h3 {
   text-align: right;
  
 }
+
 .footer-menu-section {
   display: flex;
   justify-content: space-between;
 }
+
 .social-icons > img {
   column-gap: 20px;
   padding-top: 53px;
   padding-bottom: 54px;
   padding-left: 20px;
+}
+
+.footer > hr {
+  opacity: 10%;
 }
