@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 body {
-  margin: 0;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .blue-section {
   background-color: #0052ff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .header {
@@ -19,13 +23,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 49px;
-  padding-top: 46px;
   font-size: 18px;
 }
 
 .header-space {
   background-color: #0052ff;
+  padding-bottom: 49px;
+  padding-top: 46px;
 }
 
 .logo-span {
@@ -47,7 +51,7 @@ body {
   color: #ffffff;
   border-color: #ffffff;
   border-radius: 5px;
-  padding: 10px 30px 10px 28px;
+  padding: 10px 30px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   border-style: groove;
@@ -55,16 +59,18 @@ body {
 
 hr {
   background-color: #0052ff;
-  margin: 0;
 }
 
 ul {
   list-style-type: none;
 }
 
+.consultation-space {
+  padding-top: 195px;
+}
+
 .ranking-desc {
   color: #ffcf26;
-  padding-top: 195px;
   background-color: #0052ff;
   font-size: 16px;
 }
@@ -78,6 +84,7 @@ ul {
 .main-title {
   color: #ffffff;
   font-size: 64px;
+  padding-top: 20px;
 }
 
 .description {
@@ -110,7 +117,13 @@ ul {
 }
 
 h1,
-h3 {
+h3,
+h2,
+body,
+hr,
+p,
+li,
+ul {
   margin: 0;
 }
 
@@ -123,6 +136,7 @@ h3 {
   display: flex;
   column-gap: 98.27px;
   align-content: center;
+  margin: 0;
 }
 
 .web-title {
@@ -134,8 +148,9 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 38px;
+  margin-top: 117px;
   padding: 0;
+  row-gap: 12px;
 }
 
 .saas-websites {
@@ -143,7 +158,9 @@ h3 {
 }
 
 .check-icon {
-  margin-right: 10.27px;
+  margin-right: 10px;
+  width: 28px;
+  height: 28px;
 }
 
 .checked-item {
@@ -153,7 +170,7 @@ h3 {
 }
 
 .free-call-btn {
-  padding: 0px 30px 0px 30px;
+  padding: 0px 30px;
   font-size: 18px;
   background-color: #ffcf26;
   border: transparent;
@@ -179,54 +196,43 @@ h3 {
   background-color: #f2f2f2;
   font-size: 42px;
   color: #020113;
-  height: 600px;
 }
 
 .reviews-desc {
   font-weight: bold;
+  font-size: 42px;
   text-align: center;
 }
 
 .reviews {
-  padding-top: 151px;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
 
+.reviews-space {
+  padding-top: 151px;
+}
+
 .reviewers-comments {
   display: flex;
-  position: absolute;
   column-gap: 30px;
   transform: translate(0%, 25%);
   max-width: 1200px;
 }
 
-.Nathan-comment {
+.comment {
   background-color: #ffffff;
   font-size: 18px;
   display: flex;
   flex-direction: column;
-  padding: 50px 46px 47px 45px;
+  padding: 45px;
   border-radius: 5px;
 }
 
-.Johanna-comment {
-  background-color: #ffffff;
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  padding: 50px 46px 47px 45px;
-  border-radius: 5px;
-}
-
-.Maria-comment {
-  background-color: #ffffff;
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  padding: 50px 46px 47px 45px;
-  border-radius: 5px;
+.comment-paragraph {
+  padding-top: 36px;
+  padding-bottom: 50px;
 }
 
 .star {
@@ -242,19 +248,14 @@ h3 {
 
 .customer-satisfaction {
   background-color: #eaeff5;
-}
-
-.customers-container {
-  max-width: 1560px;
-  margin: auto;
+  padding-top: 160px;
+  margin: 0 auto;
 }
 
 .customer-satisfaction > .percentage {
-  padding-top: 80px;
   font-size: 19px;
   display: flex;
   column-gap: 40px;
-  padding-bottom: 129px;
 }
 
 .rectangle {
@@ -262,45 +263,61 @@ h3 {
   margin-right: 20px;
 }
 
-.customer-satisfaction > .desc-content {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 200px;
-  padding-bottom: 150px;
-  column-gap: 140px;
+.desk-paragraph-space {
+  padding-right: 100px;
 }
 
-.desc-content > .paragraph > .title {
+.desc-paragraph {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  width: 50%;
+  padding-bottom: 100px;
+}
+
+.desc-title {
   font-size: 42px;
 }
 
-.desc-content > .paragraph {
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+.laptop-div {
+  position: relative;
 }
 
-.laptop-div {
-  width: 50%;
+.laptop-photo {
+  position: absolute;
+  bottom: 0;
+  left: 45px;
+}
+
+.customer-first-paragraph {
+  margin-top: 50px;
+  margin-bottom: 23px;
+}
+
+.desc-content {
+  padding-top: 260px;
+  display: flex;
+  padding-bottom: 150px;
 }
 
 .saas-industry {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 139px;
 }
 
 .saas-industry-title {
   font-size: 42px;
   color: #020113;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .paragraph-container {
   width: 775px;
   align-self: center;
-  padding-bottom: 45px;
+  padding-bottom: 60px;
 }
 
 .saas-industry-paragraph {
@@ -319,28 +336,36 @@ h3 {
 
 .performance-desc {
   font-size: 42px;
-  padding-top: 156px;
+  font-weight: 700;
+  padding-bottom: 45px;
 }
 
 .performance {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  row-gap: 97px;
   text-align: center;
-  padding-top: 174px;
+  column-gap: 60px;
+}
+
+.performance-logo {
+  margin-bottom: 24px;
 }
 
 .performance > span {
   font-size: 19px;
 }
-.companies-websites > div > .paragraph {
+
+.performance-paragraph {
   font-size: 18px;
-}
-.performance-section {
-  background-color: #f2f2f2;
+  font-weight: 700;
 }
 
-.performance2 {
+.performance-section {
+  background-color: #f2f2f2;
+  padding-top: 174px;
   padding-bottom: 150px;
 }
 
@@ -416,7 +441,6 @@ h3 {
 
 .social-icons {
   text-align: right;
- 
 }
 
 .footer-menu-section {
