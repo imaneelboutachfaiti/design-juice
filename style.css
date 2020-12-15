@@ -67,6 +67,7 @@ ul {
 
 .consultation-space {
   padding-top: 195px;
+  position: relative;
 }
 
 .ranking-desc {
@@ -88,11 +89,9 @@ ul {
 }
 
 .description {
-  width: 800px;
   display: flex;
   flex-direction: column;
   row-gap: 44px;
-  position: relative;
 }
 
 .consultation-info {
@@ -286,7 +285,19 @@ ul {
 .laptop-photo {
   position: absolute;
   bottom: 0;
-  left: 45px;
+  width: 630px;
+  height: 640px;
+  left: 0;
+}
+.shutterstock {
+  position: absolute;
+  width: initial;
+  bottom: 0;
+  right: 0;
+}
+
+.consultation-section {
+  position: relative;
 }
 
 .customer-first-paragraph {
@@ -387,6 +398,10 @@ ul {
   padding-bottom: 149px;
 }
 
+.consultation-content {
+  width: 65%;
+}
+
 .posts-title {
   margin: 0;
   font-size: 42px;
@@ -407,6 +422,10 @@ ul {
 .post-time {
   padding-left: 8px;
 }
+
+/* .team {
+width: 1006px;
+} */
 
 .footer {
   background-color: #111111;
@@ -457,4 +476,11 @@ ul {
 
 .footer > hr {
   opacity: 10%;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .shutterstock {
+    width: 65%;
+  }
 }
