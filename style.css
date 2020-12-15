@@ -453,10 +453,10 @@ ul {
   background-color: #111111;
   color: #ffffff;
   font-size: 18px;
+  padding-top: 74px;
 }
 
 .footer-content {
-  padding-top: 74px;
   display: flex;
   padding-bottom: 70px;
   column-gap: 132px;
@@ -482,10 +482,6 @@ ul {
 .footer-space {
   padding-top: 44px;
   padding-bottom: 45px;
-}
-
-.social-icons {
-  text-align: right;
 }
 
 .footer-menu-section {
