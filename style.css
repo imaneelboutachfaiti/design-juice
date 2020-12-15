@@ -404,12 +404,14 @@ ul {
   width: 65%;
 }
 
+.posts-space {
+  padding-top: 132px;
+}
+
 .posts-title {
-  margin: 0;
   font-size: 42px;
   text-align: center;
-  padding-top: 132px;
-  padding-bottom: 37px;
+  padding-bottom: 90px;
   font-weight: bold;
   color: #ffffff;
 }
@@ -424,13 +426,13 @@ ul {
 
 .companies-consultation {
   background-color: #f2f2f2;
-  padding-top: 380px;
+  padding-top: 150px;
 }
 
 .companies-content {
   text-align: center;
   background-color: #f2f2f2;
-  padding: 0px 409px 150px 409px;
+  padding: 43px 409px 150px 409px;
 }
 
 .companies-consultation-btn {
@@ -447,6 +449,29 @@ ul {
   color: #020113;
   padding-bottom: 60px;
   text-align: center;
+}
+
+.revenue {
+  background-color: #ffffff;
+  width: 10%;
+  padding: 38px;
+  border-radius: 10px;
+}
+
+.revenue-content {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+}
+
+.revenue-text {
+  font-weight: bold;
+}
+
+.revenue-paragraph {
+  font-size: 18px;
+  opacity: 0.55;
+  padding-top: 15px;
 }
 
 .footer {
