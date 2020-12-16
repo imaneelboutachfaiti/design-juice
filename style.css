@@ -63,6 +63,7 @@ hr {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 .consultation-space {
@@ -74,6 +75,7 @@ ul {
   color: #ffcf26;
   background-color: #0052ff;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -85,7 +87,6 @@ ul {
 .main-title {
   color: #ffffff;
   font-size: 64px;
-  padding-top: 20px;
 }
 
 .description {
@@ -118,6 +119,7 @@ ul {
 h1,
 h3,
 h2,
+h4,
 body,
 hr,
 p,
@@ -208,7 +210,7 @@ ul {
 }
 
 .reviews-space {
-  padding-top: 151px;
+  padding-top: 150px;
 }
 
 .reviewers-comments {
@@ -481,9 +483,13 @@ ul {
   padding-top: 74px;
 }
 
+.footer-list-title {
+  margin-bottom: 25px;
+}
+
 .footer-content {
   display: flex;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
   column-gap: 132px;
 }
 
@@ -520,15 +526,20 @@ ul {
   column-gap: 20px;
 }
 
-.footer > hr {
+.footer >.container > hr {
   opacity: 10%;
 }
 
 @media screen and (max-width: 1600px) {
   .shutterstock {
-    width: 65%;
+    width: 40%;
   }
-  .team {
-    width: 60%;
-  }
+}
+
+.pointer-btn {
+  cursor: pointer;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
 }
