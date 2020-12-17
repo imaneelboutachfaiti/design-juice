@@ -298,8 +298,8 @@ ul {
 }
 .shutterstock {
   position: absolute;
-    bottom: 0;
-    transform: translateX(-29px);
+  bottom: 0;
+  transform: translateX(-29px);
 }
 
 .consultation-section {
@@ -494,6 +494,12 @@ ul {
   margin-bottom: 25px;
 }
 
+.footer-list-items {
+  display: flex;
+  row-gap: 5px;
+  flex-direction: column;
+}
+
 .footer-content {
   display: flex;
   margin-bottom: 70px;
@@ -533,7 +539,7 @@ ul {
   column-gap: 20px;
 }
 
-.footer >.container > hr {
+.footer > .container > hr {
   opacity: 10%;
 }
 
