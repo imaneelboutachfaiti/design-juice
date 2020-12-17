@@ -97,7 +97,6 @@ ul {
 
 .consultation-info {
   display: flex;
-  padding-bottom: 314px;
 }
 
 .consultation-btn {
@@ -133,17 +132,21 @@ ul {
 }
 
 .websites-container {
-  max-width: 1560px;
   display: flex;
-  column-gap: 98.27px;
-  align-content: center;
-  margin: 0;
+  column-gap: 98px;
+  margin: 0 auto;
 }
 
+.team {
+  transform: translate(-36%, 0);
+}
+
+.team-photo {
+  width: 53%;
+}
 .web-title {
   font-size: 42px;
   color: #020113;
-  padding-top: 145px;
 }
 
 .checked-list {
@@ -157,6 +160,7 @@ ul {
 
 .saas-websites {
   align-self: center;
+  padding-top: 145px;
 }
 
 .check-icon {
@@ -168,7 +172,6 @@ ul {
 .checked-item {
   display: flex;
   font-size: 18px;
-  align-items: center;
 }
 
 .free-call-btn {
@@ -189,6 +192,7 @@ ul {
   transform: translate(-50%, -50%);
   align-content: center;
   left: 50%;
+  z-index: 1;
 }
 
 .reviews-section {
@@ -227,11 +231,13 @@ ul {
   flex-direction: column;
   padding: 45px;
   border-radius: 5px;
+  flex: 1;
 }
 
 .comment-paragraph {
   padding-top: 36px;
   padding-bottom: 50px;
+  flex: 1;
 }
 
 .star {
@@ -404,6 +410,7 @@ ul {
 
 .consultation-content {
   width: 65%;
+  padding-bottom: 315px;
 }
 
 .posts-space {
