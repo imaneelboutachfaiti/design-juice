@@ -299,7 +299,7 @@ ul {
 .shutterstock {
   position: absolute;
   bottom: 0;
-  transform: translateX(-29px);
+  right: 0;
 }
 
 .consultation-section {
